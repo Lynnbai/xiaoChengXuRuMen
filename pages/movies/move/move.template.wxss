@@ -1,0 +1,10 @@
+@import '/pages/movies/stars/stars-template.wxss';
+.move-contain{
+  display: flex;
+  flex-direction: column;
+}
+.move-contain>image{
+  width: 200rpx;
+  height: 270rpx;
+  padding-bottom: 20rpx;
+}

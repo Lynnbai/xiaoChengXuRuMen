@@ -1,0 +1,8 @@
+<import src="/pages/movies/move/move.template.wxml"></import>
+<view class="move-box">
+  <block wx:for="{{moveMoviesList}}" wx:for-item="item">
+  <view class="move-movies-item">
+    <template is="move" data="{{...item}}"></template>
+  </view>
+  </block>
+</view>

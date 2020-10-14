@@ -1,0 +1,16 @@
+<view class="post-detail-container">
+  <image class="img-bg" src="{{postData.headImgSrc}}"></image>
+  <view class="post-detail-auto-data">
+    <image src="{{postData.avatar}}"></image>
+    <text class="name">{{postData.author}}</text>
+    <text class="const-text">发表于</text>
+    <text class="data">{{postData.dateTime}}</text>
+  </view>
+  <text class="title">{{postData.title}}</text>
+  <view class="tool">
+    <image wx:if="{{isCollection}}" catchtap="onColletionTap"    src="/images/icon/collection.png" ></image>
+    <image wx:else catchtap="onColletionTap"  src="/images/icon/collection-anti.png"></image>
+    <image bind:tap="onShare" src="/images/icon/share.png"></image>
+  </view>
+  <text class="post-detail">{{postData.detail}}</text>
+</view>

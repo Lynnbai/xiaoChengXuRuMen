@@ -1,0 +1,12 @@
+.stars-contain{
+  display: flex;
+  align-items: center;
+}
+.stars-contain image{
+  padding-left: 3rpx;
+  height: 17rpx;
+  width: 17rpx;
+}
+.stars-contain text{
+  margin-left: 30rpx;
+}

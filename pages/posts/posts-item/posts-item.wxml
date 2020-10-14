@@ -1,0 +1,18 @@
+<template name="postItem">
+  <view class="temp-posts">
+    <view class="posts-auto-data">
+      <image  src="{{avatar}}"></image>
+      <text>{{date}}</text>
+    </view>
+    <text class="posts-title">{{title}}</text>
+    <image class="posts-main-img" src="{{imgSrc}}"></image>
+   <view class="posts-content-box"> <text class="posts-content">{{content}}</text></view>
+    <!-- 星星和浏览 -->
+    <view class="posts-like">
+        <image class="posts-icon" src="/images/icon/chat.png"></image>
+        <text>{{collection}}</text>
+        <image class="posts-icon" src="/images/icon/view.png"></image>
+        <text>{{reading}}</text>
+    </view>
+  </view>
+</template>

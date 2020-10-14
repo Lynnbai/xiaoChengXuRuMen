@@ -1,0 +1,8 @@
+<import src="/pages/movies/stars/stars-template.wxml" />
+<template name="move">
+  <view class="move-contain">
+    <image src="{{images.large}}"></image>
+    <text>{{title}}</text>
+    <template is="stars" data="{{score:rating.average,stars:stars}}"></template>
+  </view>
+</template>

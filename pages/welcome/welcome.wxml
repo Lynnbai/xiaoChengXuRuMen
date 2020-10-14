@@ -1,0 +1,5 @@
+<view class="container">
+  <image class="img" src="/images/avatar/1.png"></image>
+  <text>hello 小灰灰</text>
+  <view class="btn" bind:tap="onJump">开启新世界</view>
+</view>

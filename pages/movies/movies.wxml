@@ -1,0 +1,14 @@
+<import src="/pages/movies/movies-list/movies-list-template.wxml"></import>
+<view class="movies-contianer">
+
+  <view class="movies-list-box">
+  <template is="movies-list" data="{{...top250}}"></template>
+  </view>
+  <view class="movies-list-box">
+  <template is="movies-list" data="{{...in_theaters}}"></template>
+  </view>
+  <view class="movies-list-box">
+  <template is="movies-list" data="{{...coming_soon}}"></template>
+  </view>
+
+</view>

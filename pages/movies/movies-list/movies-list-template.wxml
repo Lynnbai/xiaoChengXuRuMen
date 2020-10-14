@@ -1,0 +1,14 @@
+<import src="/pages/movies/move/move.template.wxml"></import>
+<template name="movies-list">
+  <view class="movies-list">
+    <view class="movies-list-title-box">
+      <text>{{category}}</text>
+      <text bind:tap="onMore" data-category="{{category}}">更多</text>
+    </view>
+    <view class="movies-block">
+      <block wx:for="{{moveList}}" wx:for-item="item" wx:key="index">
+        <template is="move" data="{{...item}}"></template>
+      </block>
+    </view>
+  </view>
+</template>

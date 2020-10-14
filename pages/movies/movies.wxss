@@ -1,0 +1,7 @@
+@import '/pages/movies/movies-list/movies-list-template.wxss';
+.movies-contianer{
+  background-color: rgb(243, 242, 243);
+}
+.movies-list-box{
+  margin-bottom: 40rpx;
+}

@@ -1,0 +1,14 @@
+@import '/pages/movies/move/move.template.wxss';
+.movies-list{
+  background-color: white;
+  padding: 20rpx 0rpx;
+}
+.movies-block{
+  display: flex;
+  justify-content: space-around;
+}
+.movies-list-title-box{
+  padding:0rpx 26rpx 20rpx;
+  display: flex;
+  justify-content: space-between;
+}

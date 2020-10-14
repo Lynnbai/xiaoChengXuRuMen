@@ -1,0 +1,10 @@
+@import '/pages/movies/move/move.template.wxss';
+.move-box{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 34rpx;
+}
+.move-movies-item{
+  margin-bottom: 20rpx;
+}

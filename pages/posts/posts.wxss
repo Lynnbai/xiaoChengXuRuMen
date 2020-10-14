@@ -1,0 +1,7 @@
+@import "../posts/posts-item/posts-item.wxss";
+swiper{
+  height: 600rpx;
+}
+swiper-item image{
+  height: 600rpx;
+}
